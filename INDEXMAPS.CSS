@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color:rgb(52, 73, 94);
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    background-image: url('https://www.mapsmangalore.com/img/slider/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: #093e83;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+
+section {
+    padding: 40px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
