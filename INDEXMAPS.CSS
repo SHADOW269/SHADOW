@@ -1,11 +1,8 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 header {
     background-color:rgb(52, 73, 94);
     color: #fff;
@@ -27,24 +24,21 @@ nav a {
     text-decoration: none;
     margin-right: 20px;
 }
-
-
 h1 {
     margin: 0;
 }
-
-
 section {
     padding: 40px;
 }
-
-
 ul {
     list-style-type: none;
     padding: 0;
 }
-
-
+table{
+    text-align: left;
+    font-style: italic;
+    font-size: px;
+}
 footer {
     background-color: #333;
     color: #fff;
@@ -52,4 +46,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+button{
+    font-size: 25px;
+    background-color: #5cbdb5;
+    color: chartreuse;
+    border-radius: 12px;
 }
