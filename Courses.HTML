@@ -8,10 +8,38 @@
 </head>
 <body>
       <a href="INDEXMAPS.HTML"><img src="HTML IMAGES/MAPS NAME AND LOGO.png" alt="MAPS logo" height="70px"></a>
-    <h1>Courses Offered</h1>
-    <video height="600px" controls autoplay loop muted>
+    <h1 align="center">Courses Offered</h1>
+    <!--<video height="600px" controls autoplay loop muted>
         <source src="HTML VIDEO/ZORO.mp4" type="video/mp4">
-    </video><br>
+    </video><br>-->
+    <table align="center">
+    <form action="index.php" method="post">
+        <tr>
+            <td><label for="Student_Name">Student Name</label></td>
+            <td><input type="text" id="Student_Name" placeholder="Name" maxlength="25" required></td>
+        </tr>
+        <tr>
+            <td><label fo</td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" placeholder="example@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone Number: +91 </td>
+            <td><input type="tel" id="phone" placeholder="0123456789" pattern="[0-9]{10}"></td>
+        </tr>
+        <tr>
+            <td><label for="Password">Password</label></td>
+            <td><input type="password" id="Password" placeholder="Password" minlength="8" required></td>
+        </tr>
+        <tr>
+            <td align="right"><input type="submit"></td>
+            <td><input type="reset"></td>
+        </tr>
+        
+    </form>
+    </table>
     <a href="https://www.mapsmangalore.com/admission.php">
         <button>Application</button>
     </a>

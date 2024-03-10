@@ -34,11 +34,6 @@ ul {
     list-style-type: none;
     padding: 0;
 }
-table{
-    text-align: left;
-    font-style: italic;
-    font-size: px;
-}
 footer {
     background-color: #333;
     color: #fff;
@@ -48,7 +43,7 @@ footer {
     width: 100%;
 }
 button{
-    font-size: 25px;
+    font-size: 15px;
     background-color: #5cbdb5;
     color: chartreuse;
     border-radius: 12px;
