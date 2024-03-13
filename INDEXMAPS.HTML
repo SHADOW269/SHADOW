@@ -27,6 +27,7 @@
         <a href="#facilities">Facilities</a>
         <a href="mailto:mapsmangalore@gmail.com">Contact</a>
     </nav>
+    <marquee><h3>Addmissions are Open</h3></marquee>
     <table align="center">
         <tr>
             <td align="center">
@@ -36,26 +37,20 @@
         <tr>
             <td>
                 <p>
-                    <pre>
+                
                     Maps College, sponsored and managed by Pavoor Education
                     Trust, which was founded with a noble vision to assimilate and
                     synchronize tradition with modernity so as to build a band of
                     professionals, well set with academic skills and social
                     commitment. Maps provides quality education in various
-                    academic disciplines.
-                    </pre>
-                </p>
-                <p>
-                    <pre>
+                    academic disciplines.<span id="dots">...</span><span id="more">
+                    
                     commitment. Maps provides quality education in various
                     Maps was established in the year 2006 under the aegis of
                     commitment. Maps provides quality education in various
                     Pavoor Education Trust by the Chairmanship of Mr Dinesh
                     Kumar Alva.
-                    </pre>
-                </p>
-                <p>
-                    <pre>
+                    
                     The college is affiliated to Mangalore University and offers
                     Pavoor Education Trust by the Chairmanship of Mr Dinesh
                     degree programmes viz B.Com, BCA, BHS (Hotel Management)
@@ -64,9 +59,10 @@
                     courses such as Aviation and Hospitality Management, Fashion
                     Designing, Web Designing, Animation, Cloud Computing,
                     Artificial Intelligence, Data Analytics, Front Office, Event Management,
-                    Catering, Pastry & Bakery.
-                    </pre>
+                    Catering, Pastry & Bakery.</span>
+                
                 </p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
             </td>
             <td>
                 <img src="HTML IMAGES/MAPS COLLEGE BUILDING.jpeg" width="400">
@@ -76,5 +72,22 @@
     <footer>
         <p>&copy; 2024 Maps College. All rights reserved.</p>
     </footer>
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
 </body>
 </html>

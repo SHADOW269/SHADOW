@@ -1,4 +1,5 @@
 body {
+    font-family: "Brush Script MT", cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,4 +48,16 @@ button{
     background-color: #5cbdb5;
     color: chartreuse;
     border-radius: 12px;
+}
+marquee{
+    padding-bottom: 0px;
+    font-size: small;
+    color: red;
+}
+pre{
+    font-family: "Brush Script MT", cursive;
+    font-size: 25px;
+}
+#more{
+    display: none;
 }
